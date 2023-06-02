@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: darkgreen;
+  text-decoration: none;
+  list-style: none;
+}
+
+.cabeçalho-link{
+  display: flex;
+  gap: 3rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.cabeçalho-link a{
+  color: white;
+  font-size: 16px;
+}
+
+.cabeçalho-link a :hover{
+  color: #2ecc71;
+  transition: 0.3s all;
+}
+
+.cabeçalho-link{
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.container-text{
+  padding: 150px 0 0 0;
+}
+
+.text h3{
+  color: white;
+}
+
+.text h1{
+  color: white;
+  margin-top: 10px;
+}
+
+.text span{
+  color: lightgreen;
+}
